@@ -56,6 +56,16 @@
                 }
             ?>
         </div>
+        <!-- Input type text date -->
+        <!-- <div class="mb-3">
+            <label class="form-label">Ngày đăng ký</label>
+            <input type="text" class="form-control" id="txtRegDate" name="txtRegDate" value="">
+        </div> -->
+        <!-- Input type date -->
+        <div class="mb-3">
+            <label class="form-label">Ngày đăng ký: </label>
+            <input type="date" id="start" name="date" value="<?php echo $b_reg_date?>">
+        </div>
         <div class="mb-3">
             <label class="form-label">Nhóm máu</label>
             <input type="text" class="form-control" id="txtBGroup" name="txtBGroup" value="<?php echo $b_group?>">

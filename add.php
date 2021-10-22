@@ -7,7 +7,7 @@
 <div class="container">
     <h1 class="text-center bg-dark text-light">Thêm người vào danh sách</h1>
 </div>
-<div class="container">
+<div class="container pt-5">
     <form action="./processing/process_add.php" method="POST">
         <div class="mb-3">
             <label class="form-label">Họ và tên</label>
@@ -18,7 +18,7 @@
             <input type="text" class="form-control" id="txtAge" name="txtAge">
         </div>
         <div class="mb-3">
-            <label class="form-label">Giới tính </label>
+            <label class="form-label">Giới tính: </label>
             <input type="radio" name="gender" value="male">Nam
             <input type="radio" name="gender" value="female">Nữ
         </div>

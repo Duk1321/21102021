@@ -10,7 +10,7 @@
     $age = $_POST['txtAge'];
     $b_Group = $_POST['txtBGroup'];
     $phone_Num = $_POST['txtPhone'];
-    $date = date("Y/m/d");
+    $date = $_POST['date'];
     
     include '../reuse/connect.php';
 
