@@ -48,6 +48,7 @@
                                 <a href="./processing/delete.php?id='.$row['bd_id'].'"><button type="button" class="btn btn-danger">Xóa</button></a>
                                 </form>
                             </td>';
+                        echo '</tr>';
                     }
                 }
             ?>
